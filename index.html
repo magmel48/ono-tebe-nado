@@ -63,7 +63,7 @@
         </h1>
         <div class="cover__cta">
           <p class="cover__cta-title">
-            Аукцион вещей, в которые никто не верил
+            Аукцион вещей, в которые <span class="letter-spacing--0_1">никто</span> <span class="letter-spacing--0_3">не верил</span>
           </p>
           <button type="button" class="cover__cta-button">
             Сделать ставку
@@ -117,21 +117,106 @@
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                  котиков<span class="letter-spacing-3">...</span> Сколько бы вы
-                  на такое поставили, если бы не знали, что это — одна из
+                  котиков<span class="letter-spacing-2_6">...</span> Сколько бы
+                  вы на такое поставили, если бы не знали, что это — одна из
                   революционных работ Кандинского?
                 </p>
               </article>
             </a>
           </li>
         </ul>
+        <a href="#" class="lots__look-more-link">посмотреть больше</a>
       </section>
 
       <section class="about">
-        <!-- TODO -->
+        <div class="about__column">
+          <div class="about__logo">
+            <img
+              src="./images/logo-white.svg"
+              alt="Логотип"
+              class="about__logo-image"
+            />
+          </div>
+        </div>
+        <div class="about__column">
+          <h2 class="about__title">Об аукционе</h2>
+          <div class="about__text">
+            <p>
+              Здесь вы не встретите очередное
+              <span class="letter-spacing-0"
+                >пафосное собрание невероятно дорогого антиквариата</span
+              >. Наши лоты вообще не должны
+              <span class="letter-spacing--0_3">были попасть</span> ни
+              <span class="letter-spacing-0"
+                >на один аукцион. Потому что кому нужен</span
+              >
+              <span class="letter-spacing-0_4">дневник девочки-</span>
+              <span class="letter-spacing-0"
+                >подростка или картина, которую может</span
+              >
+              нарисовать даже ребёнок? Кому
+              <span class="letter-spacing-0_1"
+                >нужны все эти странные вещи, созданные любителями?</span
+              >
+            </p>
+            <p>
+              <span class="letter-spacing-0"
+                >Слишком сложные или, наоборот, слишком простые. Опережающие
+                своё время. В пух и прах растерзанные критиками. Непринятые и
+                непонятые. Когда-то</span
+              >
+              они казались просто
+              <span class="letter-spacing-0">неудачными. Но, несмотря<br></span> на
+              критику, <span class="letter-spacing--0_1">кажущуюся простоту или сложность, сейчас без</span> <span class="letter-spacing-0">этих лотов</span>
+              невозможно <span class="letter-spacing-0">представить соврем</span>енную культуру. Когда в эти вещи не
+              верил никто, <span class="letter-spacing--0_1">продолжали верить их создате</span>ли. И сейчас эти лоты
+              стали <span class="letter-spacing-0">культовыми</span>.
+            </p>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <address class="address">
+        <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a>
+        <br />
+        <a href="mailto:info@sobaka.ge" class="address__link">info@sobaka.ge</a>
+        <br />
+        <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
+      </address>
+
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item">
+            <a href="#" class="footer__menu-link footer__menu-link_active">главная</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a href="#" class="footer__menu-link">посмотреть лоты</a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a href="#" class="footer__menu-link">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+
+      <ul class="footer__social-list">
+        <li class="footer__social-list-item">
+          <a href="#" class="footer__social-link">
+            <img src="./images/yt.svg" width="48" alt="Ссылка на канал Youtube" class="footer__social-icon">
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a href="#" class="footer__social-link">
+            <img src="./images/vk.svg" width="48" alt="Ссылка на канал в VK" class="footer__social-icon">
+          </a>
+        </li>
+        <li class="footer__social-list-item">
+          <a href="#" class="footer__social-link">
+            <img src="./images/pinterest.svg" width="48" alt="Ссылка на Pinterest" class="footer__social-icon">
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
